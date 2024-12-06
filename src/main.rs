@@ -8,7 +8,7 @@ use rand::seq::SliceRandom;
 
 fn main() {
     let argv: Vec<String> = env::args().collect();
-    let file_name = "words.txt";
+    let file_name = "data/words.txt";
     let mut len = 3;
     if argv.len() > 1 {
         if argv.len() == 3 {
